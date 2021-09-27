@@ -20,11 +20,16 @@ def calculator():
 
 # Aufgabe 10: Teilbarkeit
 
-def divideable(n, m):
-    if type(n % m) == int:
+def divideable():
+    toParse = input("input a, b: ")
+    parsed = toParse.split(", ")
+    n = int(parsed[0])
+    m = int(parsed[1])
+
+    if n % m == 0:
         return True
     else:
         return False
 
 
-print(divideable(5, 3))
+print(divideable())
