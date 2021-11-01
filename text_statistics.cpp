@@ -7,7 +7,8 @@ using namespace std;
 int main(){
     //definitions
     int array [94] = {}; ;
-    string stats = "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" //94 Stellen
+    //127 Stellen für gesammte ASCII-Tabelle
+    string stats = "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
     
     char c;
     
@@ -15,8 +16,8 @@ int main(){
     string x = "";
     cin>>x;
     for(char c : x) {
-        string process = stats.substr((int)c, (int)c); // "0"
+        string process = stats.substr((int)c, (int)c + 1); // "0"
         int processing = stoi(process); // 0
-        
+        stats.replace(int(c), 1, processing += 1);  
     }
 }
