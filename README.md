@@ -2,7 +2,7 @@
 
 ##C++ Syntax
 
-## definition
+###definition
 int main(){
     ...
 }
