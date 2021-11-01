@@ -1,13 +1,13 @@
 # Informatik
 
-##C++ Syntax
+## C++ Syntax
 
-###definition
+### definition
 int main(){
     ...
 }
 
-###while loop
+### while loop
 while(i < 100000000) {
            ...
 }
