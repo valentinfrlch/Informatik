@@ -22,5 +22,4 @@ int main(){
         std::cout << innerring << "\n\r";
         double pi = (innerring/100000000)*4;
         std::cout << pi;
-
-    }
+}
