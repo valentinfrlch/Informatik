@@ -9,8 +9,9 @@ int main(){
     double y = 0.0;
     int i = 0;
     double innerring = 0;
+    int iterations = 100000000;
 
-    while(i < 100000000) {
+    while(i < iterations) {
             x = (1.0 * rand())/RAND_MAX; 
             y = (1.0 * rand())/RAND_MAX; 
             i += 1;
@@ -20,6 +21,7 @@ int main(){
             
     }       
         std::cout << innerring << "\n\r";
-        double pi = (innerring/100000000)*4;
+        double pi = (innerring/iterations)*4;
         std::cout << pi;
+
 }
