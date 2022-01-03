@@ -15,6 +15,10 @@ while(i < 100000000) {
 ### return
 std::cout << pi
 
+### for
+for (int i=0; i<=10; i++){
+    ...
+}
 
 ### switches and cases
 switch(x) {
