@@ -10,8 +10,9 @@ int main() {
     int z = 0;
     int n = 0;
     int out = 0;
-    cout<<"Geben Sie z und n ein: \n";
+    cout<<"Geben Sie z ein: \n";
     cin>>z;
+    cout<<"Geben Sie n ein: \n";
     cin>>n;
     for (int i=0; i<=n; i++){
         out = out + pow(z, i);
