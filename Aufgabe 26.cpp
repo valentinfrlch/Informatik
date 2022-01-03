@@ -1,5 +1,5 @@
-#Aufgabe 26
-#Berechnet eine endliche geometrische Reihe: 1 + z^1 + z^2 + z^3 ... + z^n
+//Aufgabe 26
+//Berechnet eine endliche geometrische Reihe: 1 + z^1 + z^2 + z^3 ... + z^n
 
 #include <iostream>
 #include <math.h>
