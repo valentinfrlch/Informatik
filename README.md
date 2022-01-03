@@ -16,7 +16,7 @@ while(i < 100000000) {
 std::cout << pi
 
 ### for
-for (int i=0; i<10; i++){        // runs 10 times
+for (int i=0; i<10; i++){
     ...
 }
 
